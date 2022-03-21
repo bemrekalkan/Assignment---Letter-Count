@@ -1,0 +1,5 @@
+sentence=input("Write a sentence please: ")
+letters=list(sentence)
+count=letters.count("a")
+letter_count={}.fromkeys(letters,count)
+print(letter_count)
